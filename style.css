@@ -9,7 +9,6 @@ html{
    }
 body{
    display: block;
-   margin: 10px;     
     height: 100vh;
 }
 header{
@@ -22,25 +21,35 @@ header{
     height: 20%;
     text-align: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #394294;
 }
 
 .container_photo{
     background-color: azure;
-    height: 20px;
-    width: 20px;
+    height: auto;
+    width: auto;
+    border-radius: 100%;
+    position: relative;
+    top: 102px;
 }
+
+.container_photo--photo{
+   height: 150px;
+   width: 150px;
+}
+
 
 
 main{
     height: 70%;
     width: 100%;
-    background-color: blanchedalmond;
+    
 }
 footer{
     width: 100%;
     height: 10%;
-    background-color: blue;
+    background-color: black;
+    opacity: 0.7;
     display: flex;
     justify-content: center;
     padding: 25px;
@@ -50,27 +59,29 @@ footer{
     width: 100%;
     height: 100%;
     padding: 20px;
-    background-color: red;
     display: flex;
     text-align: center;
     flex-direction: column;
+    padding-top: 80px;
 }
 
 .section_register--box{
-    width: 100%;
+    width: 270px;
     height: auto;
-    background-color: beige;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    text-align: center;
     flex-direction: column;
+    align-self: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+
 }
 
 .section_register--box_fo_password{
     width: 100%;
     height: auto;
-    background-color: beige;
     margin-bottom: 10px;
     display: flex;
     
@@ -93,3 +104,79 @@ footer{
     justify-content: center;
 }
 
+.section_register--label{
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+color: #1C85EB;
+font-weight: bold;
+font-size: 17px;
+text-align:left;
+}
+
+.section_register--input{
+
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #1C85EB;
+    color: black;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    
+}
+
+.section_register--box_fo_password{
+    display: flex;
+    justify-content: center;
+}
+
+.section_register--fo_password{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.section_register--link_password{
+    padding-left: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #1C85EB;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section_register--button{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: #1C85EB;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    color: #1C85EB;
+    font-weight: bold;
+
+}
+
+.section_register--no_account{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section_register--link_no_account{
+    padding-left: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #1C85EB;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer--text{
+    padding-left: 5px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 25px;
+}
